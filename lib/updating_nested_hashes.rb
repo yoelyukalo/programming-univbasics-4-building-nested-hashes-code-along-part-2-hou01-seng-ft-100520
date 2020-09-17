@@ -55,12 +55,10 @@ def add_characters
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       }
-      
-      epic_tragedy[:additional_characters] = []
-      
-      
-      epic_tragedy[:additional_characters] << { name: "Prince Escalus" }
-      epic_tragedy[:additional_characters] << { name: "Apothecary" }
+      epic_tragedy[:additional_characters] = [
+        { name: "Prince Escalus" },
+        { name: "Apothecary" }
+]
    }
    
    
