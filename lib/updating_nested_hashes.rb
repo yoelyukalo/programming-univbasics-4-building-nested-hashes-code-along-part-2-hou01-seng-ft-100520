@@ -58,7 +58,10 @@ def add_characters
       
       epic_tragedy[:additional_characters] = []
       
-      prince = {name:"Prince Esccalus" }
+      prince = {name: "Prince Esccalus"}
+      apotherary = {
+        name: 
+      }
       
       
       :additional_characters => [
