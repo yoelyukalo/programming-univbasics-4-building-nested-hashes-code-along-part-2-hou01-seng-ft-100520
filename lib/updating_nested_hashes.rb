@@ -56,11 +56,8 @@ def add_characters
          ]
       }
       :additional_characters => [
-        {name: "Prince Esccalus"
-      },
-      {
-        name: "Apothecary"
-      }
+      {name: "Prince Esccalus"},
+      {name: "Apothecary"}
       ]
    }
    
