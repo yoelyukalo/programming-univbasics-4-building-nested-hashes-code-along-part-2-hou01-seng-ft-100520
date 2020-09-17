@@ -61,8 +61,8 @@ def add_characters
       prince = {name: "Prince Esccalus"}
       apotherary = {name: "Apothecary"}
       
-      epic_tragedy[:additional_characters] << prince
-      epic_tragedy[:additional_characters] << apotherary
+      epic_tragedy[:additional_characters] << { name: "Prince Escalus" }
+epic_tragedy[:additional_characters] << { name: "Apothecary" }
    }
    
    
